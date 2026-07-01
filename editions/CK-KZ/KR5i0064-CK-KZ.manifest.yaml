@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0064/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0064/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 孫不二元君傳述丹道祕書三卷
+  date: '2015-08-29 17:54:45.077491'
+  source:
+    repository: kanripo
+    path: KR5i0064
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0064_001-CK-KZ.yaml, hash: 'sha256:57cfb950619203071c6dd5de099c4f5c71e7611199ed52dd02d188fc2efc8f9f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0064_001-CK-KZ.markers.yaml, hash: 'sha256:a8515a3ba6d3fee97ccbf3c68daa23b14d3ec1becdb2deeb66ca7a8ae10972e9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0064_01p111a
+    span:
+    - body
+    - 0
+    - 901
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:5f487cb7f29b7fcda44c1f161b608929ce2f38a0bc6de00747db16d2993491ef
